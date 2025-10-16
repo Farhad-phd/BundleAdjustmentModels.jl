@@ -3,6 +3,8 @@ uuid = "0bf3e898-7c79-4b38-9ca6-2d9cc6573905"
 version = "0.4.1"
 
 [deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 CodecBzip2 = "523fee87-0ab8-5b00-afb7-3ecf72e48cfd"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
@@ -12,6 +14,8 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
 [compat]
+BenchmarkTools = "1.6.0"
+CUDA = "5.9.0"
 CodecBzip2 = "0.8"
 DataFrames = "1.7"
 JLD2 = "0.6"
